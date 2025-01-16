@@ -45,12 +45,6 @@ const About = () => {
       >
         I am a robotics and deep learning enthusiast, and I am currently pursuing my Bachelor's degree in Computer Science at IIT Mandi. I have a strong interest in the field of robotics, especially. I am also interested in the field of deep learning, and I have experience working on projects that involve training neural networks to perform various tasks, and I am excited to see where my career takes me in the future.
       </motion.p>
-
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index)=>(
-          <ServiceCard key={service.title} index={index} {...service}/>
-        ))}
-      </div>
     </>
   )
 }
