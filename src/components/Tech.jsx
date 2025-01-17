@@ -36,41 +36,48 @@ const TechCard = ({ index, title, icon }) => {
 
 const Tech = () => {
   return (
-    <div className="space-y-12">
-      <div>
-        <h2 className="text-3xl font-bold text-center text-white mb-8">
-          Languages
-        </h2>
-        <div className="flex flex-row flex-wrap justify-center gap-6">
-          {languages.map((technology, index) => (
-            <TechCard
-              key={technology.name}
-              index={index}
-              title={technology.name}
-              icon={technology.icon}
-            />
-          ))}
+    <div className="flex flex-col lg:flex-row space-y-12 lg:space-y-0 lg:space-x-12">
+      {/* Column 1: Languages and Robotics Technologies */}
+      <div className="flex-1 space-y-12">
+        <div>
+          <h2 className="text-3xl font-bold text-center text-white mb-8">
+            Languages
+          </h2>
+          <div className="flex flex-row flex-wrap justify-center gap-6">
+            {languages.map((technology, index) => (
+              <TechCard
+                key={technology.name}
+                index={index}
+                title={technology.name}
+                icon={technology.icon}
+              />
+            ))}
+          </div>
         </div>
+        <div>
+          <h2 className="text-3xl font-bold text-center text-white mb-8">
+            Robotics Technologies
+          </h2>
+          <div className="flex flex-row flex-wrap justify-center gap-6">
+            {robotics_technologies.map((technology, index) => (
+              <TechCard
+                key={technology.name}
+                index={index}
+                title={technology.name}
+                icon={technology.icon}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Column 2: Web Technologies */}
+      <div className="flex-1">
         <h2 className="text-3xl font-bold text-center text-white mb-8">
           Web Technologies
         </h2>
         <div className="flex flex-row flex-wrap justify-center gap-6">
           {web_technologies.map((technology, index) => (
-            <TechCard
-              key={technology.name}
-              index={index}
-              title={technology.name}
-              icon={technology.icon}
-            />
-          ))}
-        </div>
-      </div>
-      <div>
-        <h2 className="text-3xl font-bold text-center text-white mb-8">
-          Robotics Technologies
-        </h2>
-        <div className="flex flex-row flex-wrap justify-center gap-6">
-          {robotics_technologies.map((technology, index) => (
             <TechCard
               key={technology.name}
               index={index}
