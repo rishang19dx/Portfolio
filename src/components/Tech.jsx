@@ -74,7 +74,7 @@ const Tech = () => {
       {/* Column 2: Web Technologies */}
       <div className="flex-1">
         <h2 className="text-3xl font-bold text-center text-white mb-8">
-          Web Technologies
+          Web Technologies & Version Control
         </h2>
         <div className="flex flex-row flex-wrap justify-center gap-6">
           {web_technologies.map((technology, index) => (
