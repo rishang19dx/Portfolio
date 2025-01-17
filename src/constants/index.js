@@ -50,7 +50,7 @@ import {
     },
   ];
   
-  const technologies = [
+  const web_technologies = [
     {
       name: "HTML 5",
       icon: html,
@@ -80,16 +80,19 @@ import {
       icon: django,
     },
     {
+      name: "git",
+      icon: git,
+    },
+  ];
+
+  const robotics_technologies = [
+    {
       name: "ROS2",
       icon: ros2,
     },
     {
       name: "MoveIt",
       icon: moveit,
-    },
-    {
-      name: "git",
-      icon: git,
     },
   ];
   
@@ -186,4 +189,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, projects };
+  export { services, web_technologies, robotics_technologies, experiences, projects };
