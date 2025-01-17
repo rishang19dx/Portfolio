@@ -43,7 +43,7 @@ const About = () => {
         variants = {fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-8'
       >
-        I am a robotics and deep learning enthusiast, and I am currently pursuing my Bachelor's degree in Computer Science at IIT Mandi. I have a strong interest in the field of robotics, especially. I am also interested in the field of deep learning, and I have experience working on projects that involve training neural networks to perform various tasks, and I am excited to see where my career takes me in the future.
+        I am a sophomore currently pursuing my Bachelor's degree in Computer Science Engineering at IIT Mandi. I am passionate about Robotics and Software Development. I have worked on various projects in the field of Robotics and Web Development. I am a quick learner and I am always eager to learn new technologies.
       </motion.p>
     </>
   )
