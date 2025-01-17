@@ -17,6 +17,10 @@ import threejs from "./tech/threejs.svg";
 import ros2 from './tech/ros2.png';
 import moveit from './tech/moveit.png';
 import django from './tech/django.png';
+import gazebo from './tech/gazebo.png';
+import rviz from './tech/rviz.png';
+import python from './tech/python.png';
+import cpp from './tech/cpp.png';
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -51,4 +55,8 @@ export {
   moveit,
   arm,
   django,
+  rviz,
+  gazebo,
+  python,
+  cpp,
 };

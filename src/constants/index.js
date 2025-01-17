@@ -18,6 +18,10 @@ import {
     moveit,
     arm,
     django,
+    rviz,
+    gazebo,
+    python,
+    cpp,
   } from "../assets";
   
   export const navLinks = [
@@ -60,10 +64,6 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -94,7 +94,31 @@ import {
       name: "MoveIt",
       icon: moveit,
     },
+    {
+      name: "Gazebo",
+      icon: gazebo,
+    },
+    {
+      name: "RViz",
+      icon: rviz,
+    },
   ];
+
+  const languages = [
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+  ];
+
   
   const experiences = [
     {
@@ -189,4 +213,4 @@ import {
     },
   ];
   
-  export { services, web_technologies, robotics_technologies, experiences, projects };
+  export { services, languages, web_technologies, robotics_technologies, experiences, projects };

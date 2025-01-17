@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Tilt } from 'react-tilt';
 import { SectionWrapper } from '../hoc';
-import { robotics_technologies, web_technologies } from '../constants';
+import { languages, robotics_technologies, web_technologies } from '../constants';
 import { fadeIn } from '../utils/motion';
 
 const TechCard = ({ index, title, icon }) => {
@@ -38,6 +38,19 @@ const Tech = () => {
   return (
     <div className="space-y-12">
       <div>
+        <h2 className="text-3xl font-bold text-center text-white mb-8">
+          Languages
+        </h2>
+        <div className="flex flex-row flex-wrap justify-center gap-6">
+          {languages.map((technology, index) => (
+            <TechCard
+              key={technology.name}
+              index={index}
+              title={technology.name}
+              icon={technology.icon}
+            />
+          ))}
+        </div>
         <h2 className="text-3xl font-bold text-center text-white mb-8">
           Web Technologies
         </h2>
